@@ -1,0 +1,19 @@
+{
+  "name": "qr_maker",
+  "version": "1.0.0",
+  "description": "Make a Qr code using cli (Linux users dream)",
+  "keywords": [
+    "QR"
+  ],
+  "license": "MIT",
+  "author": "Zayan Muhammed",
+  "type": "commonjs",
+  "main": "qr_maker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "readline": "^1.3.0"
+  }
+}
