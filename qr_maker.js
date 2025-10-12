@@ -16,5 +16,6 @@ rl.question("dataToEncode??: ", (data) => {
         }
         console.log(code);
     });
+    rl.close();
 });
 
