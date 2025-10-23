@@ -8,8 +8,6 @@ program
 const options = program.opts();
 
 if (options.input) {
-    console.log(`Input data: ${options.input}`);
-
     let dataToEncode = options.input;
     qr.toString(dataToEncode, { type: 'terminal' }, function (err, code) {
         if (err) {
