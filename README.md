@@ -24,13 +24,7 @@ npm install qrcode
 
 Run the script:
 ```bash
-node index.js
-```
-
-- Then type the text or URL you want to encode when prompted:
-
-```bash
-dataToEncode??: https://example.com
+node qr.js -i "Data to encode"
 ```
 
 - Boom 💥 — your QR code appears right in your terminal!
