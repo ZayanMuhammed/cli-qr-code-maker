@@ -38,6 +38,23 @@ Run the script:
 node qr.js -i "Data to encode"
 ```
 
+🪟 Windows Users
+
+If you’re using the prebuilt qr.exe binary from the bin folder:
+
+Copy the bin folder somewhere permanent (e.g. C:\Tools\qr_maker\bin)
+
+Open PowerShell as Administrator and run:
+
+```bash
+setx PATH "$($env:PATH);C:\Path\to\qr_maker\bin" /M
+```
+
+Restart PowerShell and run:
+```bash
+qr -i "Hello World"
+```
+
 - Boom 💥 — your QR code appears right in your terminal!
 
 ## Authors 🕵️‍♂️
